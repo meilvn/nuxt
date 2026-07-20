@@ -3,9 +3,7 @@
 </template>
 <script lang="ts" setup>
 useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} %separator %siteName` : '%siteName'
-  },
+  titleTemplate:'%s %separator %siteName',
   templateParams: {
     siteName: 'Site Title',
     separator: '-',
