@@ -7,8 +7,8 @@ useHead({
     return titleChunk ? `${titleChunk} %separator %siteName` : '%siteName'
   },
   templateParams: {
-    separator: '_',
-    siteName: 'My App'
-  }
+    siteName: 'Site Title',
+    separator: '-',
+  },
 })
 </script>
