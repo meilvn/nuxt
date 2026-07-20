@@ -3,6 +3,8 @@
 </template>
 <script lang="ts" setup>
 useHead({
-  titleTemplate: '%s - My Nuxt App',
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - My App` : 'My App'
+  },
 })
 </script>
