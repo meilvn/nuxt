@@ -11,6 +11,8 @@ useSeoMeta({
 })
 
 const { foo, bar } = useFoo();
+
+foo.value = 'foo updated'
 </script>
 
 <style scoped>
