@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@vant/nuxt"],
   ssr: true,
+    app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  }
 })
